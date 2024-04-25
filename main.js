@@ -9,7 +9,7 @@ const Gameboard = (() => {
   };
 
   return {
-    start,
+    render,
   };
 })();
 const createPlayer = (name, mark) => {
@@ -29,6 +29,7 @@ const Game = () => {
     ];
     currentPlayerIndex = 0;
     gameOver = false;
+    Gameboard.render();
   };
 };
 
@@ -36,8 +37,8 @@ const startBtn = document.querySelector("#start-button");
 startBtn.addEventListener("click", () => {
   Game.start();
 });
-const restartBtn = document.querySelector("#restart-button");
+// const restartBtn = document.querySelector("#restart-button");
 
-restartBtn.addEventListener("click", () => {
-  //   alert("Restart
-});
+// restartBtn.addEventListener("click", () => {
+//   //   alert("Restart
+// });
