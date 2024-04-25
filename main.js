@@ -23,7 +23,10 @@ const Game = () => {
   let currentPlayerIndex = 0;
   let gameOver = false;
   const start = () => {
-    players = [{}, {}];
+    players = [
+      createPlayer(document.querySelector("#player1").value, "X"),
+      createPlayer(document.querySelector("#player2").value, "0"),
+    ];
   };
 };
 
