@@ -17,3 +17,7 @@
   text-align: center;
   font-size: 80px;
 }
+#controls .message {
+  text-align: center;
+  margin: 20px 0;
+}
