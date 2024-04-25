@@ -9,7 +9,7 @@ const Gameboard = (() => {
   };
 
   return {
-    render,
+    start,
   };
 })();
 const createPlayer = (name, mark) => {
