@@ -7,6 +7,10 @@ const Gameboard = (() => {
     });
   };
   document.querySelector("#gameboard").innerHTML = boardHTML;
+
+  return {
+    render,
+  };
 })();
 
 const startBtn = document.querySelector("#start-button");
