@@ -1,5 +1,11 @@
 const Gameboard = (() => {
   let gameboard = ["", "", "", "", "", "", "", "", ""];
+  const render = () => {
+    let boardHTML = "";
+    gameboard.forEach((square, index) => {
+      boardHTML += `<div class="square" id=square-${index}">${square}</div>`;
+    });
+  };
 })();
 
 const startBtn = document.querySelector("#start-button");
