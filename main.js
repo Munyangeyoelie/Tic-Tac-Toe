@@ -20,13 +20,14 @@ const createPlayer = (name, mark) => {
 };
 const Game = () => {
   let players = [];
-  let currentPlayerIndex = 0;
+  let currentPlayerIndex;
   let gameOver = false;
   const start = () => {
     players = [
       createPlayer(document.querySelector("#player1").value, "X"),
       createPlayer(document.querySelector("#player2").value, "0"),
     ];
+    currentPlayerIndex = 0;
   };
 };
 
