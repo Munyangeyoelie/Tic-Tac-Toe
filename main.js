@@ -12,6 +12,12 @@ const Gameboard = (() => {
     render,
   };
 })();
+const Game = (() => {
+    let players = [];
+    let currentPlayerIndex = 0;
+    let gameOver = false;
+    const 
+})
 
 const startBtn = document.querySelector("#start-button");
 startBtn.addEventListener("click", () => {
