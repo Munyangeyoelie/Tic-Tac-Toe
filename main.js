@@ -5,7 +5,6 @@ const Gameboard = (() => {
     gameboard.forEach((square, index) => {
       boardHTML += `<div class="square" id=square-${index}">${square}</div>`;
     });
-    document.querySelector("#gameboard").innerHTML = boardHTML;
   };
 
   return {
@@ -40,8 +39,8 @@ const startBtn = document.querySelector("#start-button");
 startBtn.addEventListener("click", () => {
   Game.start();
 });
-// const restartBtn = document.querySelector("#restart-button");
+const restartBtn = document.querySelector("#restart-button");
 
-// restartBtn.addEventListener("click", () => {
-//   //   alert("Restart
-// });
+restartBtn.addEventListener("click", () => {
+  //   alert("Restart
+});
