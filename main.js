@@ -1,4 +1,6 @@
-const Gameboard = (() => {})();
+const Gameboard = (() => {
+  let gameboard = ["", "", "", "", "", "", "", "", ""];
+})();
 
 const startBtn = document.querySelector("#start-button");
 startBtn.addEventListener("click", () => {
