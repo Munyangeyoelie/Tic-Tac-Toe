@@ -12,7 +12,12 @@ const Gameboard = (() => {
     render,
   };
 })();
-const createPlayer = (name, mark) => {};
+const createPlayer = (name, mark) => {
+  return {
+    name,
+    mark,
+  };
+};
 const Game = () => {
   let players = [];
   let currentPlayerIndex = 0;
