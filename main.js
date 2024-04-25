@@ -6,6 +6,7 @@ const Gameboard = (() => {
       boardHTML += `<div class="square" id=square-${index}">${square}</div>`;
     });
   };
+  document.querySelector("#gameboard").innerHTML = boardHTML;
 })();
 
 const startBtn = document.querySelector("#start-button");
