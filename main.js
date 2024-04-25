@@ -31,6 +31,9 @@ const Game = () => {
     gameOver = false;
     Gameboard.render();
   };
+  return {
+    start,
+  };
 };
 
 const startBtn = document.querySelector("#start-button");
