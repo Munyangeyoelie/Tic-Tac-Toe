@@ -31,7 +31,6 @@ const Game = (() => {
     gameOver = false;
     Gameboard.render();
   };
-
   return {
     start,
   };
