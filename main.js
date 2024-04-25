@@ -1,3 +1,5 @@
+const Gameboard = (() => {})();
+
 const startBtn = document.querySelector("#start-button");
 startBtn.addEventListener("click", () => {
   //   alert("Start");
