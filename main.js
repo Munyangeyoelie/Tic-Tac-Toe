@@ -1,4 +1,5 @@
 const Gameboard = (() => {
+  // the palce holder of the gameboard
   let gameboard = ["", "", "", "", "", "", "", "", ""];
   const render = () => {
     let boardHTML = "";
