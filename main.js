@@ -1,6 +1,7 @@
 const Gameboard = (() => {
   // the palce holder of the gameboard
   let gameboard = ["", "", "", "", "", "", "", "", ""];
+  // what this function is it will get this gameboard and render them into HTML
   const render = () => {
     let boardHTML = "";
     gameboard.forEach((square, index) => {
