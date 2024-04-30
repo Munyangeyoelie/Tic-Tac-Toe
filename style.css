@@ -9,7 +9,7 @@
   display: flex;
   flex-wrap: wrap;
   float: left;
-  border: 1px solid black;
+  border: 1px solid #000;
   justify-content: center;
   align-items: center;
   width: 25%;
