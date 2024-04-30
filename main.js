@@ -13,12 +13,6 @@ const Gameboard = (() => {
     render,
   };
 })();
-const createPlayer = (name, mark) => {
-  return {
-    name,
-    mark,
-  };
-};
 const startBtn = document.querySelector("#start-button");
 startBtn.addEventListener("click", () => {
   Game.start();
