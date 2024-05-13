@@ -5,7 +5,7 @@ const Gameboard = (() => {
   const render = () => {
     let boardHTML = "";
     gameboard.forEach((square, index) => {
-      boardHTML += `<div class="square" id=square-${index}">${square}</div>`;
+      boardHTML += `<div class="square" id="square-${index}">${square}</div>`;
     });
   };
   // The return of the function will be made here
