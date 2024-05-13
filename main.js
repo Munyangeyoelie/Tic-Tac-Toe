@@ -41,7 +41,7 @@ const Game = (() => {
   };
   const handleClick = (event) => {
     let index = parseInt(event.target.id.split("-")[1]);
-    console.log(index);
+    alert(index);
   };
   return {
     start,
