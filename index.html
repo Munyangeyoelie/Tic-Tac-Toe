@@ -3,41 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tic-Tac-Toe</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Fredoka+One|Press+Start+2P&display=swap"
-      rel="stylesheet"
-    />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Tic-Tac-Toe</h1>
-    </header>
-
-    <div class="setup">
-      <div class="chooseplayertype">
-        <h2>Player 1 (X):</h2>
-        <div class="selecttype">
-          <div class="selection human one">Human</div>
-          <div class="selection ai one">AI</div>
-        </div>
-      </div>
-      <div class="chooseplayertype">
-        <h2>Player 2 (O):</h2>
-        <div class="selecttype">
-          <div class="selection human two">Human</div>
-          <div class="selection ai two">AI</div>
-        </div>
-      </div>
-      <div class="startbuttondiv">
-        <button class="startgame">Start Game</button>
-      </div>
+    <h1>Tic tac Toe</h1>
+    <!-- This game board will be grabed  -->
+    <div id="gameboard"></div>
+    <!-- This will be having all the properties that we want-->
+    <div id="controls">
+      <input type="text" id="player1" placeholder="Player 1 Name" />
+      <input type="text" id="player2" placeholder="Player 2 Name" />
+      <button id="start-button">Start Game</button>
+      <button id="restart-button">Restart Game</button>
     </div>
-    <div class="turn"></div>
-    <div class="winner"></div>
-    <div class="gameboard"></div>
-
-    <script src="script.js"></script>
+    <!-- This area is where the masege of the winner will be displaed-->
+    <div id="message"></div>
+    <div id="result-display"></div>
+    <script src="main.js"></script>
   </body>
 </html>
+<!--On 13th May 2024 learning progrees wa contiued -->
