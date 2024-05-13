@@ -4,12 +4,14 @@
   justify-content: center;
   align-items: center;
   height: 300px;
+  justify-content: center;
 }
 .square {
   display: flex;
   flex-wrap: wrap;
   float: left;
-  border: 1px solid #000;
+  border: 1px solid black;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 25%;
