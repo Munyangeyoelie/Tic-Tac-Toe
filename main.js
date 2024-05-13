@@ -10,7 +10,7 @@ const Gameboard = (() => {
     document.querySelector("#gameboard").innerHTML = boardHTML;
     const squares = document.querySelectorAll(".square");
     squares.forEach((square) => {
-      square.addEventListener("click", GamehandleClick);
+      square.addEventListener("click", Game.handleClick);
     });
   };
 
