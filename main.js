@@ -8,6 +8,7 @@ const Gameboard = (() => {
       boardHTML += `<div class="square" id="square-${index}">${square}</div>`;
     });
   };
+  document.querySelector("#gameboard").innerHTML = boardHTML;
   // The return of the function will be made here
   return {
     render,
@@ -38,12 +39,12 @@ const Game = (() => {
   };
 })();
 
-const startBtn = document.querySelector("#start-button");
-startBtn.addEventListener("click", () => {
-  Game.start();
+const startButton = document.querySelector("#start-button");
+startButton.addEventListener("click", () => {
+  alert("hello world!");
 });
-const restartBtn = document.querySelector("#restart-button");
+const restartButton = document.querySelector("#restart-button");
 
-restartBtn.addEventListener("click", () => {
-  //   alert("Restart
+restartButton.addEventListener("click", () => {
+  alert("Restart");
 });
