@@ -19,7 +19,8 @@
   text-align: center;
   font-size: 80px;
 }
-#controls {
+#controls,
+#message {
   text-align: center;
   margin: 20px 0;
   /* justify-content: center; */
