@@ -44,6 +44,7 @@ const Game = (() => {
   };
   return {
     start,
+    handleClick,
   };
 })();
 
