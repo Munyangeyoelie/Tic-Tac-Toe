@@ -10,7 +10,7 @@ const Gameboard = (() => {
     document.querySelector("#gameboard").innerHTML = boardHTML;
     const squares = document.querySelectorAll(".square");
     squares.forEach((square) => {
-      square.addEventListener("click", handleClick);
+      square.addEventListener("click", GamehandleClick);
     });
   };
 
@@ -38,6 +38,9 @@ const Game = (() => {
     currentPlayerIndex = 0;
     gameOver = false;
     Gameboard.render();
+  };
+  const handleClick = (event) => {
+    alert("Hello world");
   };
   return {
     start,
