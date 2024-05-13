@@ -8,6 +8,8 @@ const Gameboard = (() => {
       boardHTML += `<div class="square" id="square-${index}">${square}</div>`;
     });
     document.querySelector("#gameboard").innerHTML = boardHTML;
+    const squares = document.querySelectorAll(".square");
+    console.log(squares);
   };
 
   // The return of the function will be made here
