@@ -9,7 +9,9 @@ const Gameboard = (() => {
     });
     document.querySelector("#gameboard").innerHTML = boardHTML;
     const squares = document.querySelectorAll(".square");
-    console.log(squares);
+    squares.forEach((square) => {
+      square.addEventListener("click", handleClick);
+    });
   };
 
   // The return of the function will be made here
