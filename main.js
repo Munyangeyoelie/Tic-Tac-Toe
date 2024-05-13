@@ -40,7 +40,7 @@ const Game = (() => {
     Gameboard.render();
   };
   const handleClick = (event) => {
-    alert("Hello world");
+    console.log(event);
   };
   return {
     start,
